@@ -1,0 +1,12 @@
+# Export all functions
+export(convert.waters,
+       convert.waters2
+       )
+
+
+# Import all packages listed as Imports or Depends
+#import(Rcpp)
+importFrom(MetShot,"msn2xcms")
+importFrom(Biobase,"copyEnv")
+importFrom(stringr,"str_trim","str_replace")
+importFrom(xcms,"xcmsRaw","getScan","profStep<-","profStep","write.mzdata","plotChrom","plotTIC")

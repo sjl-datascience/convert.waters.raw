@@ -1,0 +1,14 @@
+Package: convert.waters.raw
+Version: 1.0
+Date: 2015-09-14
+Title: convert.waters.raw
+Author: Jan Stanstrup <stanstrup@gmail.com>
+Maintainer: Jan Stanstrup <stanstrup@gmail.com>
+Depends: R (>= 2.14.0)
+Suggests: 
+Imports: MetShot, xcms, Biobase, stringr
+Enhances: 
+Description: Converts files from Waters .raw format to mzData. MassLynx need to be installed and masswolf need to be in path.
+License: GPL (>= 2)
+URL: None
+biocViews: MassSpectrometry, Metabolomics
